@@ -1,0 +1,40 @@
+/*---RESET---*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*----GENERAL----*/
+body{
+    font-family: "Edu TAS Beginner", serif;
+    background-image: url(../img/cork.png);
+}
+.container{
+    max-width: 780px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    padding: 1.875rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    background-image: url(../img/wall.png);
+}
+/*----TYPHOGRAPHY----*/
+
+.title-header{
+    font-size: 5.625rem;
+    text-align: center;
+    padding: 1.875rem;
+}
+
+/*----HEADER----*/
+
+.card{
+    background-color: white;
+    padding: 1.25rem;
+}

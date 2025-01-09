@@ -12,7 +12,7 @@ body{
     background-image: url(../img/cork.png);
 }
 .container{
-    max-width: 87.5rem;
+    max-width: 75rem;
     margin-left: auto;
     margin-right: auto;
     margin-top: 1rem;
@@ -46,8 +46,7 @@ header {
 .card{
     background-color: white;
     width: calc((100% - 6rem)/ 3);
-    margin-right: 2rem;
-    margin-top: 2rem;
+    margin: 1rem;
     position: relative;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -62,4 +61,26 @@ header {
     position: absolute;
     left: calc(50% - 1rem);
     top: -1rem;
+}
+
+/*---MEDIUM-----*/
+
+@media screen and (max-width: 60rem){
+    .card{
+        width: calc((100% - 4rem )/ 2);
+    }
+    .container{
+        max-width: 50rem;
+    }
+}
+
+/*---SMALL---*/
+
+@media screen and (max-width: 37.5rem){
+    .card{
+        width: calc(100% - 2rem);
+    }
+    .container{
+        max-width: 25rem;
+    }
 }

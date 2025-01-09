@@ -11,7 +11,7 @@ axios.get("https://jsonplaceholder.typicode.com/photos?_limit=6")
             `<div class="card">
                 <img class="img-point" src="./img/pin.svg" alt="puntina">
                 <img class="img-fluid" src="${card.url}" alt="image-1">
-                <p id="card-title">${card.title.toUpperCase()}</p>
+                <p id="card-title">${card.title}</p>
             </div>`
     });
 })

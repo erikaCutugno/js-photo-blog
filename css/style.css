@@ -55,6 +55,7 @@ header {
 #card-title{
     margin-bottom: 2rem;
     padding: 0 1rem;
+    text-transform: capitalize;
 }
 
 .img-point{

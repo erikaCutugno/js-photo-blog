@@ -16,22 +16,3 @@ axios.get("https://jsonplaceholder.typicode.com/photos?_limit=6")
     });
 })
 
-// axios.get("https://jsonplaceholder.typicode.com/photos?_limit=6")
-// .then(function(response){
-//     const cardInfo = response.data
-//     cardInfo.forEach(card => {
-//         const arrayTitle = card.title.split(" ")
-//         arrayTitle.forEach(elm => {
-//             const firstLetter = elm[0].toUpperCase()
-           
-//             let word = firstLetter
-//             for(let i=1; i< 4; i++){
-//                 word += elm[i]
-//             }
-//             console.log(word)
-        
-//         })
-       
-//         // console.log(arrayTitle)
-//     });
-// })

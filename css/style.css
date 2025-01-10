@@ -65,8 +65,8 @@ header {
 
 .img-point{
     position: absolute;
-    left: calc(50% - 1rem);
-    top: -1rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /*----OVERLAY----*/
@@ -91,8 +91,9 @@ header {
   
   #btn {
     position: absolute;
-    top: 2rem;
-    left: calc(50% - 3.125rem);
+    top: 3rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: black;
     font-size: 30px;
     font-weight: bold;
@@ -118,6 +119,9 @@ header {
     .container{
         max-width: 50rem;
     }
+    .img-space {
+        width: 40%;
+      }
 }
 
 /*---SMALL---*/
@@ -129,4 +133,7 @@ header {
     .container{
         max-width: 25rem;
     }
+    .img-space {
+        width: 50%;
+      }
 }

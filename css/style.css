@@ -50,9 +50,13 @@ header {
     position: relative;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     cursor: pointer;
+    transition: width 1s, height 1s,transform 1s;
 }
 .card:hover{
     opacity: 0.9;
+    width: 20rem;
+    height: 28rem;
+    transform: rotate(10deg);
 }
 .card:hover .img-point{
    display: none;

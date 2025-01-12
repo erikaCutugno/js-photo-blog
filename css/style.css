@@ -55,6 +55,7 @@ header {
 .card:hover{
     opacity: 0.9;
     transform: rotate(10deg) scale(1.1);
+    box-shadow: rgba(0, 0, 0, 0.85) 0px 5px 15px;
 }
 .card:hover .img-point{
    display: none;
